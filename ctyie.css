@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    width: 100%;
+}
+/* logo */
+
+.logo-container {
+    display: flex;
+    height: 32px;
+    padding: 0px 20px;
+    background: #EAF5FE;
+}
+.logo-img {
+    width: 18px;
+height: 20px;
+margin-top: 8px;
+}
+.logo-link {
+    color: #032D60;
+font-size: 11px;
+font-family: Roboto;
+line-height: 18px;
+margin-left: 12px;
+padding-top: 10px;
+text-decoration: none;
+}
+.logo-text-slash {
+    color: #444;
+font-size: 11px;
+font-family: Roboto;
+line-height: 18px;
+margin-left: 8px;
+padding-top: 10px;
+}
+.logo-text {
+    color: #444;
+font-size: 11px;
+font-family: Roboto;
+line-height: 18px;
+margin-left: 8px;
+padding-top: 10px;
+}
+
+.img-heroku {
+    width: 143px;
+height: 50px;
+}
+
+.logo-heroku {
+    background-color: #3B2F63;
+    background-image: radial-gradient(circle at 50% top,
+     rgba(84,90,182,0.6) 0%, rgba(84,90,182,0) 75%),
+     radial-gradient(circle at right top, #794aa2 0%,
+      rgba(121,74,162,0) 57%);
+}
+.logo-heroku-up-left {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    gap: 12px;
+}
+.logo-heroku-up {
+    display: flex;
+    justify-content: space-between;
+}
+.search-elements {
+    display: flex;
+}
+
+
