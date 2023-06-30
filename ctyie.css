@@ -7,7 +7,10 @@
 body {
     font-family: Inter;
     width: 100%;
+
+    margin: auto;
 }
+
 /* logo */
 
 .logo-container {
@@ -16,61 +19,214 @@ body {
     padding: 0px 20px;
     background: #EAF5FE;
 }
+
 .logo-img {
     width: 18px;
-height: 20px;
-margin-top: 8px;
+    height: 20px;
+    margin-top: 8px;
 }
+
 .logo-link {
     color: #032D60;
-font-size: 11px;
-font-family: Roboto;
-line-height: 18px;
-margin-left: 12px;
-padding-top: 10px;
-text-decoration: none;
+    font-size: 11px;
+    font-family: Roboto;
+    line-height: 18px;
+    margin-left: 12px;
+    padding-top: 10px;
+    text-decoration: none;
 }
+
 .logo-text-slash {
     color: #444;
-font-size: 11px;
-font-family: Roboto;
-line-height: 18px;
-margin-left: 8px;
-padding-top: 10px;
+    font-size: 11px;
+    font-family: Roboto;
+    line-height: 18px;
+    margin-left: 8px;
+    padding-top: 10px;
 }
+
 .logo-text {
     color: #444;
-font-size: 11px;
-font-family: Roboto;
-line-height: 18px;
-margin-left: 8px;
-padding-top: 10px;
+    font-size: 11px;
+    font-family: Roboto;
+    line-height: 18px;
+    margin-left: 8px;
+    padding-top: 10px;
 }
 
 .img-heroku {
     width: 143px;
-height: 50px;
+    height: 50px;
+    margin: 16px 14px 20px 20px;
 }
 
 .logo-heroku {
+
     background-color: #3B2F63;
     background-image: radial-gradient(circle at 50% top,
-     rgba(84,90,182,0.6) 0%, rgba(84,90,182,0) 75%),
-     radial-gradient(circle at right top, #794aa2 0%,
-      rgba(121,74,162,0) 57%);
+            rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%),
+        radial-gradient(circle at right top, #794aa2 0%,
+            rgba(121, 74, 162, 0) 57%);
 }
+
+.logo-img-logo {
+    display: flex;
+}
+
+.link-selekt-products,
+.link-select-marketplace,
+.link-selest-more {
+    display: flex;
+    align-items: center;
+}
+
 .logo-heroku-up-left {
     display: flex;
-    justify-content: space-between;
     width: 40%;
     gap: 12px;
+    align-items: center;
+
 }
+
 .logo-heroku-up {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
+
 .search-elements {
     display: flex;
+
+    margin-right: 20px;
+    color: rgba(242, 238, 255, 0.60);
+
 }
 
+.search-elements-text {
+    width: 99.2px;
+    height: 15px;
+    font-size: 12px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
 
+.search-elements-txt-btn {
+    display: flex;
+    width: 145px;
+    height: 33.55px;
+    padding: 9px 0 9px 11px;
+    align-items: center;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.10);
+    margin-right: 18px;
+
+    font-size: 12px;
+    font-family: Inter;
+    font-style: normal;
+
+}
+
+.search-elements-btn {
+    width: 20px;
+    height: 20px;
+    background-color: initial;
+    border-color: none;
+    border: 0;
+
+}
+
+.img-btn {
+    border-radius: 50%;
+    padding-top: 4px;
+
+}
+
+.search-or {
+    display: flex;
+
+}
+
+a {
+    color: rgba(242, 238, 255, 0.60);
+    font-size: 13px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.6px;
+    text-decoration: none;
+
+}
+a:hover,
+select:hover {
+    color: #FFF;
+}
+
+select {
+    background-color: initial;
+
+    color: rgba(242, 238, 255, 0.60);
+    border: none;
+
+}
+
+.login-elements {
+    display: flex;
+    gap: 7.5px;
+    font-size: 12px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+    margin: 8px 5px 0 0;
+}
+
+.sign-elements {
+    color: #FFF;
+    font-size: 12px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.20);
+    border: none;
+    padding: 0 12px 0 12px;
+}
+.sign-elements:hover{
+    background:  rgba(5, 5, 5, 0.445);
+}
+.center {
+   max-width: 740px;
+   height: 200px;
+   align-items: center;
+   margin: 68px auto 0 auto;       
+}
+.center-icon {
+    width: 48.02px;
+height: 48px;
+flex-shrink: 0;
+margin: 0 0 12px 360px;
+}
+.center-title {
+    color: #FFF;
+text-align: center;
+font-size: 35px;
+font-family: Inter;
+font-style: normal;
+font-weight: 300;
+line-height: 43.2px;
+margin-bottom: 17px;
+}
+.center-text {
+    color: #CCBFDB;
+text-align: center;
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 19.2px;
+
+}
