@@ -232,7 +232,7 @@ select:hover {
 /* main bar */
 
 main {
-    max-width: 900px;
+    max-width: 915px;
     margin: auto;
    
 }
@@ -270,13 +270,13 @@ main {
 .container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 900px;
+    max-width: 915px;
     margin-top: 44px;
 }
 .category-label{
     padding-bottom: 10px;
     margin-bottom: 30px;
-   border-bottom: 1px solid #D8DDE6;;
+   border-bottom: 1px solid #D8DDE6;
 }
 .text-dark {
     color: #3F3F44;
@@ -287,6 +287,7 @@ line-height: 19.2px;
 }
 .cards_wrapper {
     display: flex;
+    
     gap: 5px;
     max-width: 675px;
 }
@@ -350,7 +351,7 @@ margin: 19px 0;
     line-height: 18px;
 }
 .par-img-ch {
-    margin-top: 2px;
+    margin-top: 3px;
 }
 .text-ch {
    padding-top: 5px;
@@ -378,3 +379,71 @@ li {
     margin-right: 10px;
     font-size: 12px;
 }
+.category-label-two {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 21px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+   border-bottom: 1px solid #D8DDE6;
+}
+.category-label-left{
+    display: flex;
+    gap: 13px;   
+}
+.category-label-left h5 {
+    color: #3F3F44;
+font-size: 15px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+line-height: 19.2px;
+}
+.category-label-left p {
+    color: #3F3F44;
+font-size: 13px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 19.5px;
+}
+
+.category-label-right{
+    display: flex;
+    gap: 14px;
+}
+.category-label-right p {
+    color: #9B9FA2;
+text-align: right;
+font-size: 13px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+}
+
+#sort {
+    color: #3F3F44;
+font-size: 12.333px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+border: none;
+outline: none;
+width: 258px;
+    border-radius: 3px;
+    border: 1px solid #CBCBD2;
+    background: lightgray 262.878px 12.686px  2.518% 31.429% no-repeat, #FFF;
+}
+.conteiner-big {
+    
+}
+.cards_wrapper_two{
+    display: flex;
+flex-wrap: wrap;
+
+   gap: 5px; 
+}
+
+
