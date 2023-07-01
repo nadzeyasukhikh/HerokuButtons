@@ -232,8 +232,9 @@ select:hover {
 /* main bar */
 
 main {
-    width: 50%;
+    max-width: 900px;
     margin: auto;
+   
 }
 
 .main-bar {
@@ -261,14 +262,119 @@ main {
     transition: 150ms;
 }
 
-.link-img {
-    transition: 150ms;
-}
-
-.link-img:hover {
-    border-bottom: 2px solid #79589F;
-}
 
 .link-bar:hover {
     color: #79589F;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    margin-top: 44px;
+}
+.category-label{
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+   border-bottom: 1px solid #D8DDE6;;
+}
+.text-dark {
+    color: #3F3F44;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 19.2px;
+}
+.cards_wrapper {
+    display: flex;
+    gap: 5px;
+    max-width: 675px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+border: 1px solid #D8DDE6;
+background: #FFF;
+    height: 200px;
+    width: 225px;
+    
+    transition: all 150ms;
+}
+.card:hover {
+    border:1px solid #79589F;
+    box-shadow: 0px 0px 1px rgba(74, 74, 74, 0.3);
+}
+.img_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.img_wrapper p {
+    font-size: 13px;
+}
+.brand h6 {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.brand .bar {
+    background: linear-gradient(to left, #64438B, #C6ACE5); 
+    width: 100%; 
+    height: 1px;
+    
+}
+.bar {
+    color: #4C4C4C;
+font-size: 12px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+margin: 19px 0;
+}
+.bar p {
+   padding-top: 19px;
+}
+
+.brand {
+    padding: 20px;
+}
+.brand > p {
+    color: #4C4C4C;
+    font-size: 12px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.par-img-ch {
+    margin-top: 2px;
+}
+.text-ch {
+   padding-top: 5px;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 15px;
+    background: rgba(242, 242, 245, 0.50);
+}
+.statch {
+    margin-top: 14px;
+}
+
+
+.stat > ul {
+    display: flex;
+}
+li {
+    display: flex;
+    gap: 2px;
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 12px;
 }
