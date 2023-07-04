@@ -457,10 +457,11 @@ main {
 
 .wrapper {
     margin-top: 90px;
-    margin-bottom: 50px;
+    
     display: flex;
     justify-content: space-between;
     height: 82px;
+    
 }
 .btn-left button {
     padding: 5px 0.01px 5px 0px;
@@ -512,11 +513,13 @@ line-height: 19.5px;
 }
 
 .list {
-    margin-bottom: 61px;
+    
     display: flex;
     justify-content: center;
     gap: 34px;
-    
+    background: rgba(240, 240, 240, 0.50);
+    height: 64px;
+    align-items: center;
     
 }
 
@@ -539,17 +542,117 @@ line-height: 19.5px;
 }
 
 footer {
-    max-width: 1160px;
+    width: 100%;
     margin: auto;
+    background: #F0F0F0;
 }
 
 .footer-container {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 20px;
+    padding: 77px 30px;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 li {
     list-style: none;
+    
 }
+
 a {
     text-decoration: none;
 }
+.li-title-text  {
+   margin-bottom: 15px;
+   color: #211746;
+font-size: 12px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+line-height: 13.2px;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+.footer-container a {
+    color: #666;
+font-size: 13px;
+font-family: Inter;
+font-style: normal;
+font-weight: 300;
+line-height: 23.4px;
+
+}
+.icon-paragraph {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 18px;
+    color: #6E5BAA;
+font-size: 14px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 15.4px;
+align-items: center;
+}
+.mail-addres {
+    color: #666;
+font-size: 13px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 23.4px;
+margin-bottom: 5px;
+}
+.inp-btn {
+    position: relative;
+    width: 360px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #D7D7D7;
+background: #FFF;
+padding-top: 8px;
+}
+.inp-btn button {
+    color: #FFF;
+text-align: center;
+font-size: 13.333px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.667px;
+text-transform: uppercase;
+width: 40px;
+height: 30px;
+border-radius: 3px;
+background: #6E5BAA;
+border: none;
+position: absolute;
+left: 313px;
+top: 04px;
+transition: 150ms;
+}
+.inp-btn button:hover {
+    background: #6854aa;
+}
+.inp-btn input {
+    margin-left: 5px;
+    border: none;
+    outline: none;
+}
+.inp-btn:hover {
+    border: 1px solid #6E5BAA;
+}
+.footer-line {
+    padding-top: 15px;
+   
+    border-bottom: 1px solid #D7D7D7;
+width: 360px;
+}
+.footer-link-icons {
+    margin-top: 16px;
+}
+
+
