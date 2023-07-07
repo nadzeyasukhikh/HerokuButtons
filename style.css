@@ -498,9 +498,13 @@ main {
     line-height: 18px;
     border-radius: 3px;
     background:  #F9F9FB;
-    box-shadow: 0px 0px 0px 1px  #79589F inset;
+    box-shadow: 0px 0px 0px 1px  #8a7e97 inset;
     border: none;
     cursor: pointer;
+    transition: 150ms;
+}
+.btn-rihgt button:hover {
+    background:  #c1b8ca;
 }
 .wrapper-text p {
     color: #3F3F44;
@@ -581,8 +585,13 @@ font-family: Inter;
 font-style: normal;
 font-weight: 300;
 line-height: 23.4px;
-
+transition: 150ms;
 }
+
+.footer-container a:hover {
+    color: #272727;
+}
+
 .icon-paragraph {
     display: flex;
     gap: 2px;
@@ -658,7 +667,7 @@ width: 360px;
     background: rgba(255, 255, 255, 0.40);
     
     height: 120px;
-   
+   padding-top: 20px;
 }
 .footer-wrapper-left-rught {
     max-width: 1160px;
